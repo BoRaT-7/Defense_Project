@@ -23,7 +23,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div class="navbar bg-base-100 px-20 shadow-sm">
+    <div class="navbar bg-base-100 lg:px-20 shadow-sm">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -94,10 +94,14 @@
       </div>
 
        
-
+        <div class="text-center lg:mx-25">
+           <h3 class=" font-Parisienne text-3xl mt-6 ">Travel Experiences</h3>
+            <h3>Explore Top Destination</h3>
+      <p class=" mt-3">Discover breathtaking landscapes, rich cultures, and unforgettable travel moments.From mountain adventures to serene beach getaways, we have the perfect tour for you.Enjoy handpicked stays, expert guides, and seamless travel — stress-free.</p>
+        </div>
       
-      <h3 class="text-center font-Parisienne text-3xl mt-6 ">Travel Experiences</h3>
-        <div class="flex gap-2 px-20  mt-6 justify-center ">
+     <div>
+      <div class="flex gap-2 px-20  mt-6 justify-center ">
         <div class="card bg-base-100 w-96 shadow-sm">
             <figure>
               <img
@@ -109,6 +113,7 @@
               <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
               <div class="card-actions justify-end">
                 <button class="btn btn-primary">Buy Now</button>
+                
               </div>
             </div>
           </div>
@@ -155,6 +160,14 @@
             </div>
           </div>
       </div>
+      
+      <div class="text-center mt-5">
+         <button class="btn btn-dash btn-success">See All</button>
+     
+     </div>
+
+
+       
 
 
        <h3 class="text-center font-Parisienne text-3xl mt-6 ">Travel Experiences</h3>
@@ -217,7 +230,8 @@
           </div>
       </div>
 
-
+       
+      <h3 class="text-center font-Parisienne text-3xl mt-6 ">Travel Experiences</h3>
        <div class="flex gap-2 px-20  mt-6 justify-center ">
         <div class="card bg-base-100 w-96 shadow-sm">
             <figure>
@@ -278,5 +292,111 @@
       </div>
 
       
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Cards</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    
+    <!-- Single Card Start -->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="https://i.ibb.co/Xs0k2Cw/waterfall.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+      <div class="bg-blue-900 text-white p-4 rounded-b-xl">
+        <!-- Tag -->
+        <div class="flex items-center space-x-2 mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span class="bg-blue-500 px-3 py-0.5 rounded-full text-sm">3 Days 4 Night</span>
+        </div>
+
+        <!-- Title -->
+        <h3 class="text-2xl font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Single Card End -->
+
+    <!-- Repeat above card 3 more times (can change title/image etc if needed) -->
+    <!-- Card 2 -->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="https://i.ibb.co/Xs0k2Cw/waterfall.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      <div class="bg-blue-900 text-white p-4 rounded-b-xl">
+        <div class="flex items-center space-x-2 mb-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span class="bg-blue-500 px-3 py-0.5 rounded-full text-sm">3 Days 4 Night</span>
+        </div>
+        <h3 class="text-2xl font-bold">Bandarban</h3>
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat Card 3 and 4 similarly -->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="https://i.ibb.co/Xs0k2Cw/waterfall.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      <div class="bg-blue-900 text-white p-4 rounded-b-xl">
+        <!-- Same inner content -->
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="https://i.ibb.co/Xs0k2Cw/waterfall.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      <div class="bg-blue-900 text-white p-4 rounded-b-xl">
+        <!-- Same inner content -->
+      </div>
+    </div>
+
+  </div>
+
 </body>
 </html>
