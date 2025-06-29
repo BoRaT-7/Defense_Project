@@ -21,6 +21,8 @@
 <script src="https://kit.fontawesome.com/d70127f8dc.js" crossorigin="anonymous"></script>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navbar bg-base-100 lg:px-20 shadow-sm">
@@ -66,7 +68,7 @@
       </div>
       
       <div class="carousel w-full    lg:h-100">
-        <div id="item1" class="carousel-item w-full">
+        <div id="item1" class="carousel-item opacity-30% w-full">
           <img
             src="images/may-courtyard-narrow-city-china.jpg"
             class="w-full" />
@@ -76,7 +78,7 @@
             src="images/people-boat-lake-with-trees.jpg"
             class="w-full" />
         </div>
-        <div id="item3" class="carousel-item w-full">
+        <div id="item3" class="carousel-item  w-full">
           <img
             src="images/green-trunk-mountains-foggy-mist-scenic.jpg"
             class="w-full" />
@@ -86,12 +88,13 @@
             src="images/blogzB8BGDn5J45LisskNSi5r3F07ohqWXZ4.png"
             class="w-full" />
         </div>
-         <h3 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-5xl font-bold shadow-lg text-center">
+         <h3 class=" find absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-red-500 text-5xl md:text-5xl font-bold shadow-lg text-center">
     Find Your Destination
   </h3>
+  
       </div>
       <div>
-      <div class="flex w-full justify-center gap-2 py-2">
+      <div class="flex w-full justify-center gap-2 -mt-8">
         <a href="#item1" class="btn btn-xs">1</a>
         <a href="#item2" class="btn btn-xs">2</a>
         <a href="#item3" class="btn btn-xs">3</a>
@@ -99,9 +102,49 @@
       </div>
       </div>
       
+     <!-- Second Section Start -->
+<div class="flex flex-col md:flex-row justify-center items-center md:gap-40 gap-6 bg-white py-5 px-4">
+  
+  <!-- Shop Gear -->
+  <div class="bg-[#143E5F] rounded-xl w-32 h-32 flex flex-col justify-center items-center text-white shadow-md">
+    <div class="text-3xl">
+      <img src="images/png-transparent-shopping-cart-e-commerce-online-shopping-logo-shopping-cart-blue-service-logo-removebg-preview.png" alt="" class="h-12 w-auto">
+    </div>
+    <p class="font-bold text-xl text-center leading-tight">Shop Gear</p>
+  </div>
+
+  <!-- Plan Trip -->
+  <div class="bg-[#143E5F] rounded-xl w-32 h-32 flex flex-col justify-center items-center text-white shadow-md">
+    <div class="mb-2">
+      <img src="images/plan trip.png" alt="" class="h-12 w-auto">
+    </div>
+    <p class="font-bold text-xl text-center leading-tight">Plan Trip</p>
+  </div>
+
+  <!-- Destination Guides -->
+  <div class="bg-[#143E5F] rounded-xl w-32 h-32 flex flex-col justify-center items-center text-white shadow-md">
+    <div class="mt-2">
+      <img src="images/destination logo.png" alt="" class="h-12 w-auto">
+    </div>
+    <p class="font-bold text-xl text-center leading-tight text-sm md:text-base">
+      Destination<br>Guides
+    </p>
+  </div>
+
+</div>
+
+      
 
 
        <div>
+        <!-- Top Destination Section -->
+<div class="text-center px-4 py-8 bg-white">
+  <!-- Headline -->
+  <h1 class="text-[64px] font-bold font-['Roboto'] leading-tight text-[#143E5F]">
+    Explore Top Destination
+  </h1>
+</div>
+
       <div class="bg-gray-100 lg:px-20 pt-10">
      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
     
@@ -157,7 +200,7 @@
    
     <!-- Card 2 -->
      <div class="bg-white rounded-xl overflow-hidden shadow-lg">
-      <img src="images/download (10).jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      <img src="images/download (13).jpg" alt="Bandarban" class="h-48 w-full object-cover">
       
      <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
 
@@ -399,32 +442,12 @@
 
 
 
-<!--Second Section Start--->
-<div class="flex justify-center items-center gap-40 bg-white py-10">
-  <!-- Shop Gear -->
-  <div class="bg-[#003A63] rounded-xl w-32 h-32 flex flex-col justify-center items-center text-white shadow-md">
-    <div class="text-3xl mb-2">
-      🛒 <!-- Replace with icon from Heroicons or use an actual image/svg -->
-    </div>
-    <p class="text-bold text-2xl text-center leading-tight mt-4">Shop Gear</p>
-  </div>
 
-  <!-- Plan Trip -->
-  <div class="bg-[#003A63] rounded-xl w-32 h-32 flex flex-col justify-center items-center text-white shadow-md">
-    <div class="text-3xl mb-2">
-      ✈️ <!-- Replace with custom icon if needed -->
-    </div>
-    <p class="text-bold text-2xl text-center leading-tight mt-4">Plan Trip</p>
-  </div>
 
-  <!-- Destination Guides -->
-  <div class="bg-[#003A63] rounded-xl w-32 h-32 flex flex-col justify-center items-center text-white shadow-md">
-    <div class="text-3xl mb-2">
-      📍 <!-- Use a guide icon or replace with SVG -->
-    </div>
-    <p class="text-bold text-xl text-center leading-tight mt-4">Destination<br>Guides</p>
-  </div>
-</div>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+``>
+
+---
 
 
 
