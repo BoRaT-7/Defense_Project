@@ -27,7 +27,7 @@
 
 </head>
 <body>
-    <div class="navbar bg-base-100 lg:px-20 shadow-sm">
+   <div class="navbar bg-base-100 bg-[#143E5F] lg:px-20 shadow-sm fixed top-0 left-0 right-0 z-50">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -36,43 +36,56 @@
             <ul
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
+              <li><a>Home</a></li>
+               <li><a href="">Shop</a></li>
+               <li><a>Packages</a></li>
               <li>
-                <a>Parent</a>
+                <a>Pages</a>
                 <ul class="p-2">
                   <li><a>Submenu 1</a></li>
                   <li><a>Submenu 2</a></li>
                 </ul>
               </li>
-              <li><a>Item 3</a></li>
+              
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+         <h2 class=" font-bold text-white ">
+        <span class="text-blue-500 text-5xl">S</span><span class="text-red-500 text-3xl ">MART TRAVEL</span><br />
+       
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
+            <li><a>Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a>Packages</a></li>
             <li>
               <details>
-                <summary>Parent</summary>
+                <summary>Pages</summary>
                 <ul class="p-2">
                   <li><a>Submenu 1</a></li>
                   <li><a>Submenu 2</a></li>
                 </ul>
               </details>
             </li>
-            <li><a>Item 3</a></li>
+            
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn">Button</a>
+        <div class="navbar-end gap-2">
+        <div class="  ">
+          <a class="btn  hover:bg-blue-400">Log in</a>
         </div>
+        
+         <div class="  ">
+          <a class="btn  hover:bg-blue-400">Sign in</a>
+        </div>
+        </div>
+        
       </div>
       <div class="carousel w-full">
   <div id="slide1" class="carousel-item relative w-full">
     <img
       src="images/green-trunk-mountains-foggy-mist-scenic.jpg"
-      class="w-full lg:h-100" />
+      class="w-full lg:h-125" />
     <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide4" class="btn btn-circle">❮</a>
       <a href="#slide2" class="btn btn-circle">❯</a>
@@ -81,7 +94,7 @@
   <div id="slide2" class="carousel-item relative w-full">
     <img
       src="images/may-courtyard-narrow-city-china.jpg"
-      class="w-full lg:h-100" />
+      class="w-full lg:h-125" />
     <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide1" class="btn btn-circle">❮</a>
       <a href="#slide3" class="btn btn-circle">❯</a>
@@ -90,7 +103,7 @@
   <div id="slide3" class="carousel-item relative w-full">
     <img
       src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-      class="w-full lg:h-100" />
+      class="w-full lg:h-125" />
     <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide2" class="btn btn-circle">❮</a>
       <a href="#slide4" class="btn btn-circle">❯</a>
@@ -99,7 +112,7 @@
   <div id="slide4" class="carousel-item relative w-full">
     <img
       src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-      class="w-full lg:h-100" />
+      class="w-full lg:h-125" />
     <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide3" class="btn btn-circle">❮</a>
       <a href="#slide1" class="btn btn-circle">❯</a>
@@ -688,7 +701,7 @@
     </p>
   </div>
   <!-- guide  card state-->
-   <div class="p-6 px-20 bg-gray-100 min-h-screen">
+   <div class="p-6 lg:px-20 bg-gray-100 min-h-screen">
   <!-- Card Grid -->
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
     
@@ -821,63 +834,185 @@
 </div>
   </div>
 
-  <section class="bg-cover bg-center py-16" style="background-image: url(images/background\ image\ client\ review.jpg);">
-  <div class=>
-    <h2 class="text-red-400 text-4xl md:text-5xl font-bold text-center mb-4 italic">
+  <div class="bg-cover mb-12 lg:-mt-65 bg-center py-16" style="background-image: url(images/background\ image\ client\ review.jpg);">
+  <div class="mt-10">
+    <h2 class="text-red-400 text-3xl  md:text-5xl font-bold text-center mb-4 italic">
       What <span class=" text-black">Our Client Say About Us</span>
     </h2>
-    <p class=" text-center max-w-4xl mx-auto mb-12">
+    <p class=" text-center mt-8 max-w-4xl mx-auto mb-12">
       Our clients are passionate explorers who value quality, comfort, and memorable experiences. From solo travelers to families and corporate groups, we proudly serve a global community. Their trust drives us to deliver exceptional tours with personalized service every time.
     </p>
-
-    <div class="lg:px-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-      
+    
+    <div class="lg:px-20 grid grid-cols-1 mt-8 md:grid-cols-3 gap-8">
       <!-- Card 1 -->
-      <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-xl text-white shadow-lg">
+      <div class="bg-white-100 backdrop-blur-md p-6 rounded-xl text-white shadow-lg">
         <div class="flex items-center gap-4 mb-4">
-          <img src="images/customer images/3103849-beard_cap_elderly_face_man_mustache_old_person.jpg" alt="Sinthiya Jahan" class="w-14 h-14 rounded-full object-cover border-2 border-white">
+          <img src="images/customer images/3103849-beard_cap_elderly_face_man_mustache_old_person.jpg" alt="Sinthiya Jahan" class="w-17 h-17 rounded-full object-cover border-2 border-white">
           <div>
-            <h3 class="font-bold text-lg">Sinthiya Jahan</h3>
-            <p class="text-yellow-400 text-sm">★★★★★</p>
+            <h3 class="font-bold text-black text-2xl">Emily Carter</h3>
+            <p class="text-red-500 text-2xl">★★★★★</p>
           </div>
         </div>
-        <p>
+        <p class="text-black font-semibold p-4 w-100 ">
+          I recently visited Cox’s Bazar, the longest sea beach in the world, and it was an amazing experience. The beach was clean, the waves were refreshing, the waves were refreshing.
+        </p>
+     
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-white-100 backdrop-blur-md p-6 rounded-xl text-white shadow-lg">
+        <div class="flex items-center gap-4 mb-4">
+          <img src="images/customer images/OIP (2).webp" alt="Sinthiya Jahan" class="w-17 h-17 rounded-full object-cover border-2 border-white">
+          <div>
+            <h3 class="font-bold text-black text-2xl">Harper Collins</h3>
+            <p class="text-red-500 text-2xl">★★★★★</p>
+          </div>
+        </div>
+        <p class="text-black font-semibold p-4 w-100 ">
           I recently visited Cox’s Bazar, the longest sea beach in the world, and it was an amazing experience. The beach was clean, the waves were refreshing, the waves were refreshing.
         </p>
       </div>
-
-      <!-- Card 2 -->
-      <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-xl text-white shadow-lg">
+     <!-- Card 3 -->
+      <div class="bg-white-100 backdrop-blur-md p-6 rounded-xl text-white shadow-lg">
         <div class="flex items-center gap-4 mb-4">
-          <img src="images/customer images/c2.jpg" alt="Chandny Resma" class="w-14 h-14 rounded-full object-cover border-2 border-white">
+          <img src="images/customer images/smiling-random-person-graphic-png-trv-4350ryshed47fke7.png" alt="Sinthiya Jahan" class="w-17 h-17 rounded-full object-cover border-2 border-white">
           <div>
-            <h3 class="font-bold text-lg">Chandny Resma</h3>
-            <p class="text-yellow-400 text-sm">★★★★★</p>
+            <h3 class="font-bold text-black text-2xl">Liam Parker</h3>
+            <p class="text-red-500 text-2xl">★★★★★</p>
           </div>
         </div>
-        <p>
-          Bandarban, one of the most scenic districts in Bangladesh, offers breathtaking natural beauty and a peaceful retreat from city life. During my trip, I explored popular spots like Nilgiri, Nafakhum, Meghla, and the serene winding roads, and mist-covered mountains created a magical atmosphere.
-        </p>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bg-white bg-opacity-10 backdrop-blur-md p-6 rounded-xl text-white shadow-lg">
-        <div class="flex items-center gap-4 mb-4">
-          <img src="images/customer images/OIP.webp" alt="Arif Khan" class="w-14 h-14 rounded-full object-cover border-2 border-white">
-          <div>
-            <h3 class="font-bold text-lg">Arif Khan</h3>
-            <p class="text-yellow-400 text-sm">★★★★★</p>
-          </div>
-        </div>
-        <p>
-          Ratargul Swamp Forest, located in Sylhet, is a unique and enchanting freshwater swamp forest in Bangladesh. Visiting during the monsoon season was a magical experience—the forest was submerged in water, and the boat ride through the submerged trees felt surreal.
+        <p class="text-black font-semibold p-4 w-100 ">
+          I recently visited Cox’s Bazar, the longest sea beach in the world, and it was an amazing experience. The beach was clean, the waves were refreshing, the waves were refreshing.
         </p>
       </div>
     </div>
   </div>
-</section>
+  <div class="flex items-center mt-12 justify-center space-x-2">
+    <button class="text-3xl font-bold text-black">&lt;</button>
+    <button class="bg-blue-500 text-white w-8 h-8 rounded-full">1</button>
+    <button class="bg-red-400 text-white w-8 h-8 rounded-full">2</button>
+    <button class="bg-red-400 text-white w-8 h-8 rounded-full">3</button>
+    <button class="text-3xl font-bold text-black">&gt;</button>
+  </div> 
+  <!-- <div class="flex justify-center pb-6 mt-10 items-center">
+ <button class="btn bg-blue-400 hover:bg-blue-600 text-black font-bold text-xl  ">See All</button>
+</div>-->
+</div>
 
-  
+
+
+<footer class="bg-[#2c2e33] text-white py-10 px-8  lg:-mt-12 md:px-16">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 justify-center lg:ml-20">
+
+    <!-- Logo & Description -->
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">
+        <span class="text-blue-500 text-3xl">S</span><span class="text-red-500 text-2xl">MART</span><br />
+        <span class="text-red-500 text-xl font-bold ml-1">TRAVEL</span>
+      </h2>
+      <p class="text-gray-300 text-sm">
+        Expert planning, seamless booking, and personalized service, we ensure every trip extraordinary.
+      </p>
+    </div>
+
+   
+     <div class="grid grid-cols-2 sm:grid-cols-2 ml-20 gap-8 ">
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
+      <ul class="space-y-1 text-gray-300 text-sm">
+        <li><a href="#" class="hover:text-white">Home</a></li>
+        <li><a href="#" class="hover:text-white">About Us</a></li>
+        <li><a href="#" class="hover:text-white">Services</a></li>
+        <li><a href="#" class="hover:text-white">Tour Guide</a></li>
+        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+      </ul>
+    </div>
+      <!-- Tour Type -->
+      <div>
+      <h3 class="text-lg font-semibold mb-3">Tour Type</h3>
+      <ul class="space-y-1 text-gray-300 text-sm">
+        <li><a href="#" class="hover:text-white">Home</a></li>
+        <li><a href="#" class="hover:text-white">About Us</a></li>
+        <li><a href="#" class="hover:text-white">Services</a></li>
+        <li><a href="#" class="hover:text-white">Tour Guide</a></li>
+        <li><a href="#" class="hover:text-white">Contract Us</a></li>
+      </ul>
+    </div>
+
+     </div>
+
+    <!-- Contact Info -->
+    <div class="ml-30">
+      <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+      <ul class="text-gray-300 text-sm space-y-2">
+        <li class="flex items-center gap-2">
+          📞 +8801004102889
+        </li>
+        <li class="flex items-center gap-2">
+          📞 +8801004102889
+        </li>
+        <li class="flex items-center gap-2">
+          ✉️ borat15-6006@diu.edu.bd
+        </li>
+        <li class="flex items-center gap-2">
+          📍 Asuliya Savar Dhaka, Bangladesh<br />
+          Road no : 24 , House : 3A
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Line -->
+  <div class="border-t border-gray-600 mt-8 pt-4 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+    <p>©2025 Tourgo All Rights Reserved</p>
+    <div class="space-x-4 mt-2 md:mt-0">
+      <a href="#" class="hover:text-white">Privacy</a>
+      <a href="#" class="hover:text-white">Team of Serviese</a>
+    </div>
+  </div>
+</footer>
+
+
+  <div class="w-full max-w-5xl mx-auto mt-10">
+  <div class="flex items-center justify-between rounded-full shadow-md overflow-hidden border border-gray-200 bg-white">
+    <!-- Where -->
+    <div class="flex-1 px-6 py-4 hover:bg-gray-100 cursor-pointer">
+      <p class="text-xs text-gray-500 font-semibold">Where</p>
+      <input
+        type="text"
+        placeholder="Search destinations"
+        class="bg-transparent outline-none text-sm w-full"
+      />
+    </div>
+
+    <!-- Divider -->
+    <div class="w-px bg-gray-300 h-10"></div>
+
+    <!-- Date -->
+    <div class="flex-1 px-6 py-4 hover:bg-gray-100 cursor-pointer">
+      <p class="text-xs text-gray-500 font-semibold">Date</p>
+      <p class="text-sm text-gray-700">Add dates</p>
+    </div>
+
+    <!-- Divider -->
+    <div class="w-px bg-gray-300 h-10"></div>
+
+    <!-- Type of Service -->
+    <div class="flex-1 px-6 py-4 hover:bg-gray-100 cursor-pointer">
+      <p class="text-xs text-gray-500 font-semibold">Type of service</p>
+      <p class="text-sm text-gray-700">Add service</p>
+    </div>
+
+    <!-- Search Button -->
+    <button class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+      </svg>
+      Search
+    </button>
+  </div>
+</div>
+
 
 
 
