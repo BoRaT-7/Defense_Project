@@ -26,7 +26,7 @@
 
 </head>
 <body>
-    <div class="navbar  bg-[#157ECE] lg:px-20 shadow-sm fixed top-0 left-0 right-0 z-50">
+       <div class="navbar  bg-[#157ECE] lg:px-20 shadow-sm fixed top-0 left-0 right-0 z-50">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -50,9 +50,11 @@
               
             </ul>
           </div>
-         <h2 class=" font-bold pb-3  ">
-        <span class="text-red-500 text-5xl">S</span><span class=" text-3xl text-white  ">MART  TRAVEL</span><br />
-       </h2>
+         <h2 class="font-bold pb-3">
+  <span class="text-red-500 text-2xl lg:text-5xl">S</span>
+  <span class="text-white text-xl lg:text-3xl">MART TRAVEL</span><br />
+</h2>
+
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal text-white font-semibold text-xl px-1">
@@ -87,37 +89,37 @@
         
       </div>
 
-<div class="grid grid-cols-2 min-h-screen">
+<div class="grid grid-cols-1 lg:grid-cols-2 min-h-screen">
   <!-- Left Section -->
-  <div class="flex flex-col items-center justify-center bg-black relative">
+  <div class="flex flex-col items-center justify-center bg-black relative h-[400px] lg:h-auto">
     <img src="images/log in pages .jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-30 z-0" />
 
     <div class="relative z-20 text-center px-6">
-      <h2 class="font-bold ">
-        <span class="text-red-500  text-[100px]">S</span>
-        <span class="text-[60px] text-white">MART TRAVEL</span><br />
+      <h2 class="font-bold">
+        <span class="text-red-500 text-[60px] sm:text-[80px] lg:text-[100px]">S</span>
+        <span class="text-[30px] sm:text-[45px] lg:text-[60px] text-white">MART TRAVEL</span><br />
       </h2>
-      <h3 class="text-[#2196F3] text-[40px] mt-40">We are ready<br>Are you ready ?</h3>
+      <h3 class="text-[#2196F3] text-[24px] sm:text-[32px] lg:text-[40px] mt-10 sm:mt-20">We are ready<br>Are you ready ?</h3>
     </div>
   </div>
 
   <!-- Right Section (Login Form) -->
-  <div class="bg-[#0F3554] flex items-center justify-center">
-    <div class="w-full max-w-md px-8 py-10 rounded-md shadow-md">
-      <h2 class="text-white text-3xl font-bold mb-6 text-center">Sign in your account</h2>
+  <div class="bg-[#0F3554] flex items-center justify-center py-10 px-4">
+    <div class="w-full max-w-md bg-opacity-100 px-6 sm:px-8 py-8 rounded-md shadow-md">
+      <h2 class="text-white text-2xl sm:text-3xl font-bold mb-6 text-center">Sign in your account</h2>
 
       <form class="space-y-4">
         <div>
-          <label class="block  text-white font-medium mb-1">Email or Username *</label>
+          <label class="block text-white font-medium mb-1">Email or Username *</label>
           <input type="text" placeholder="Email or Username"
-            class="w-full px-4 py-2 bg-white opacity-70 text rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            class="w-full px-4 py-2 bg-white bg-opacity-70 text rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" />
         </div>
 
         <div>
           <label class="block text-white font-medium mb-1">Password *</label>
           <div class="relative">
             <input type="password" placeholder="Password"
-              class="w-full px-4 py-2 rounded-md bg-white opacity-70 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 pr-10" />
+              class="w-full px-4 py-2 rounded-md bg-white bg-opacity-70 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 pr-10" />
             <span class="absolute right-3 top-2.5 text-gray-500 cursor-pointer"></span>
           </div>
         </div>
@@ -137,13 +139,13 @@
         <hr class="flex-grow border-gray-400" />
       </div>
 
-      <div class="flex justify-center space-x-4">
+      <div class="flex flex-wrap justify-center gap-4">
         <button class="flex items-center bg-white px-4 py-2 rounded-md shadow-md">
           <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" class="w-5 h-5 mr-2" />
           Google
         </button>
         <button class="flex items-center bg-white px-4 py-2 rounded-md shadow-md">
-          <img src="https://www.svgrepo.com/show/452213/apple.svg" alt="Apple" class="w-5 h-5 mr-2" />
+          <img src="images/logo apple icon.png" alt="Apple" class="w-5 h-5 mr-2" />
           Apple
         </button>
         <button class="flex items-center bg-white px-4 py-2 rounded-md shadow-md">
@@ -154,12 +156,44 @@
 
       <p class="text-white text-sm text-center mt-6">
         Don't have an account?
-        <a href="#" class="text-blue-400 hover:underline">Sign Up</a>
+        <a href="#" class="text-blue-400 hover:underline">Register</a>
       </p>
     </div>
   </div>
 </div>
 
+
+ <div class="relative bg-cover bg-center min-h-[300px] flex items-center px-4 sm:px-10 py-10" style="background-image: url('images/background image client review.jpg');">
+  <div class="flex flex-col lg:flex-row lg:gap-40 w-full justify-between items-center text-white">
     
+    <!-- Heading -->
+    <h2 class="text-3xl sm:text-4xl text-black pl-20 lg:text-5xl font-bold text-center lg:text-left mb-6 lg:mb-0">
+      Get The Latest Updates & <br />Insights
+    </h2>
+    
+    <!-- Form & Buttons -->
+    <div class="flex flex-col pr-20 items-center lg:items-start">
+      <!-- Email input and Subscribe button -->
+      <div class="flex flex-col sm:flex-row items-center gap-2 mb-6">
+        <input type="email" placeholder="your email" class="px-4 py-2 rounded-md text-black w-64">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md w-full sm:w-auto">Subscribe</button>
+      </div>
+
+      <!-- Store Buttons -->
+      <div class="flex flex-wrap justify-center lg:justify-start gap-4">
+        <button class="bg-black text-white flex items-center gap-2 px-4 py-2 rounded-md">
+          <img src="https://img.icons8.com/ios-filled/20/ffffff/google-play.png" />
+          Play Store
+        </button>
+        <button class="bg-white text-black flex items-center gap-2 px-4 py-2 rounded-md border">
+          <img src="https://img.icons8.com/ios-filled/20/000000/mac-os.png" />
+          Apple Store
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
