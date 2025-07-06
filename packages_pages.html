@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packages</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+</style>
+</style>
+    <style type="text/tailwindcss">
+      <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    </style>
+<script src="https://kit.fontawesome.com/d70127f8dc.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+      <div class="navbar  bg-[#157ECE] lg:px-20 shadow-sm fixed top-0 left-0 right-0 z-50">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-blue-400 rounded-box z-1 mt-3 w-50 p-2 shadow">
+              <li><a>Home</a></li>
+               <li><a href="">Shop</a></li>
+               <li><a>Packages</a></li>
+              <li>
+                <a>Pages</a>
+                <ul class="p-2">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>Plan Trip</a></li>
+                  <li><a>Packages</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+         <h2 class="font-bold pb-3">
+  <span class="text-red-500 text-2xl lg:text-5xl">S</span>
+  <span class="text-white text-xl lg:text-3xl">MART TRAVEL</span><br />
+</h2>
+
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-white font-semibold text-xl px-1">
+            <li><a>Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a>Packages</a></li>
+            <li>
+              <details>
+                <summary>Pages</summary>
+                <ul class="p-2 bg-blue-400">
+                  <li><a>Top Destination</a></li>
+                  <li><a>Shop Gear</a></li>
+                  <li><a>Plan Trip</a></li>
+                  <li><a>Packages</a></li>
+                   <li><a>Tour Guide</a></li>
+                    <li><a>Client Review</a></li>
+                </ul>
+              </details>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="navbar-end gap-2">
+        <div class="  ">
+          <a class="btn  hover:bg-red-400">Log in</a>
+        </div>
+        
+         <div class="  ">
+          <a class="btn  hover:bg-blue-400">Sign in</a>
+        </div>
+        </div>
+        
+      </div>
+      <img src="images/Top Destination/p1.jpg" class="h-125 w-full" alt="">
+      <section class="relative -mt-55 bg-cover bg-center" >
+  <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center px-4">
+    <h1 class="text-[80px] text-blue-500 font-bold mb-6">Packages</h1>
+    <div class="flex items-center bg-white rounded-md px-4 py-2 w-full max-w-md mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+      </svg>
+      <input type="text" placeholder="Search Your Destination" class="bg-transparent focus:outline-none w-full placeholder-black text-black" />
+    </div>
+    <p class="text-lg mb-10">
+      <a href="#" class="hover:underline font-bold">Home</a>
+      <span class="mx-2 text-orange-400">≫</span>
+      <a href="#" class="hover:underline font-bold">Packages</a>
+    </p>
+    <div class="flex items-center  rounded-lg px-5 py-2">
+      <a href="#" class="btn hover:bg-blue-700 hover:text-white bg-white text-blue-700 font-bold px-4 py-2 rounded">Use Map</a>
+    </div>
+  </div>
+</section>
+
+<!-- Star  tour guide section  -->
+  <div class="bg-gray-100 mt-55">
+ <div class="text-center pt-10">
+       <h2 class="text-2xl  font-semibold mb-2">Read The Top</h2>
+        <h1 class="text-5xl font-bold mb-4 lg:text-[64px] sm:text-4xl font-bold font-['Roboto']    leading-tight text-[#143E5F]">Popular Packages</h1>
+         <p class=" text-gray-600  lg:px-50">
+      Discover breathtaking landscapes, rich cultures, and unforgettable travel moments. From mountain adventures to serene beach getaways, we have the perfect tour for you. Enjoy handpicked stays, expert guides, and seamless travel — stress-free.
+    </p>
+  </div>
+  <!-- guide  card state-->
+   <div class="p-6 lg:px-20 bg-gray-100 min-h-screen">
+  <!-- Card Grid -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    
+    <!-- Card  1-->
+   <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p2.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+     <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p3.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <!--card 3-->
+   <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p4.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--card 4-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p5.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--5 card-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p7.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--6 card-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p9.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Card  7-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p10.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Card  8-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p11.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Card  9-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p12.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card  10-->
+    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p13.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Card  11-->
+   <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/p14.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card  12-->
+   <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+      <img src="images/Top Destination/1.jpg" alt="Bandarban" class="h-48 w-full object-cover">
+      
+     <div class="bg-[#0A3D62] text-white p-4 rounded-b-xl">
+
+        <!-- Tag -->
+          <div class="flex items-center -mt-6 ml-20">
+  <span class="flex items-center space-x-1 bg-blue-500 px-3 py-1 rounded-full text-white text-sm">
+    <!-- Clock Icon -->
+    <svg xmlns="http://www.w3.org/2000/svg"
+         class="w-4 h-4 text-white"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke="currentColor">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M12 6v6h4.5m3 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <!-- Label -->
+    <span class="pb-0.5 ">3 Days 4 Night</span>
+  </span>
+</div>
+
+        <!-- Title -->
+        <h3 class="text-3xl mt-3 font-bold">Bandarban</h3>
+        
+        <!-- Location -->
+        <div class="flex items-center text-sm mt-1 text-white/80">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" clip-rule="evenodd" />
+          </svg>
+          Nafakhum Waterfall
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="flex items-center justify-between mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium">
+            BOOK NOW →
+          </button>
+          <p class="text-sm">
+            Starting From <span class="text-red-400 font-semibold">45$</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--card end-->
+
+  </div>
+   <div class="flex justify-center pb-6 mt-4 items-center">
+ <button class="btn bg-blue-400 hover:bg-blue-600 text-white font-bold text-xl  ">See All</button>
+</div>
+  
+  <div class="flex items-center  justify-center space-x-2">
+    <button class="text-2xl text-gray-700">&lt;</button>
+    <button class="bg-red-400 hover:bg-blue-400 text-white w-8 h-8 rounded-full">1</button>
+    <button class="bg-red-400 hover:bg-blue-400 text-white w-8 h-8 rounded-full">2</button>
+    <button class="bg-red-400 hover:bg-blue-400 text-white w-8 h-8 rounded-full">3</button>
+    <button class="text-2xl text-gray-700">&gt;</button>
+  </div> 
+</div>
+  </div>
+
+  <footer class="bg-[#2c2e33] text-white py-10 px-8   lg: md:px-16">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 justify-center lg:ml-20">
+
+    <!-- Logo & Description -->
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-4">
+        <span class="text-blue-500 text-3xl">S</span><span class="text-red-500 text-2xl">MART</span><br />
+        <span class="text-red-500 text-xl font-bold ml-1">TRAVEL</span>
+      </h2>
+      <p class="text-gray-300 text-sm">
+        Expert planning, seamless booking, and personalized service, we ensure every trip extraordinary.
+      </p>
+    </div>
+
+   
+     <div class="grid grid-cols-2 sm:grid-cols-2 ml-20 gap-8 ">
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
+      <ul class="space-y-1 text-gray-300 text-sm">
+        <li><a href="#" class="hover:text-white">Home</a></li>
+        <li><a href="#" class="hover:text-white">About Us</a></li>
+        <li><a href="#" class="hover:text-white">Services</a></li>
+        <li><a href="#" class="hover:text-white">Tour Guide</a></li>
+        <li><a href="#" class="hover:text-white">Contact Us</a></li>
+      </ul>
+    </div>
+      <!-- Tour Type -->
+      <div>
+      <h3 class="text-lg font-semibold mb-3">Tour Type</h3>
+      <ul class="space-y-1 text-gray-300 text-sm">
+        <li><a href="#" class="hover:text-white">Home</a></li>
+        <li><a href="#" class="hover:text-white">About Us</a></li>
+        <li><a href="#" class="hover:text-white">Services</a></li>
+        <li><a href="#" class="hover:text-white">Tour Guide</a></li>
+        <li><a href="#" class="hover:text-white">Contract Us</a></li>
+      </ul>
+    </div>
+     </div>
+
+    <!-- Contact Info -->
+    <div class="ml-30">
+      <h3 class="text-lg font-semibold mb-3">Contact Us</h3>
+      <ul class="text-gray-300 text-sm space-y-2">
+        <li class="flex items-center gap-2">
+          📞 +8801004102889
+        </li>
+        <li class="flex items-center gap-2">
+          📞 +8801004102889
+        </li>
+        <li class="flex items-center gap-2">
+          ✉️ borat15-6006@diu.edu.bd
+        </li>
+        <li class="flex items-center gap-2">
+          📍 Asuliya Savar Dhaka, Bangladesh<br />
+          Road no : 24 , House : 3A
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Line -->
+  <div class="border-t border-gray-600 mt-8 pt-4 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+    <p>©2025 Tourgo All Rights Reserved</p>
+    <div class="space-x-4 mt-2 md:mt-0">
+      <a href="#" class="hover:text-white">Privacy</a>
+      <a href="#" class="hover:text-white">Team of Serviese</a>
+    </div>
+  </div>
+</footer >
+
+
+        
+      </body>
+     
