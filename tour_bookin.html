@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+</style>
+</style>
+    <style type="text/tailwindcss">
+      <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    </style>
+<script src="https://kit.fontawesome.com/d70127f8dc.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+         <div class="navbar  bg-[#157ECE] lg:px-20 shadow-sm fixed top-0 left-0 right-0 z-50">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-blue-400 rounded-box z-1 mt-3 w-50 p-2 shadow">
+              <li><a>Home</a></li>
+               <li><a href="">Shop</a></li>
+               <li><a>Packages</a></li>
+              <li>
+                <a>Pages</a>
+                <ul class="p-2">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>Plan Trip</a></li>
+                  <li><a>Packages</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+         <h2 class="font-bold pb-3">
+  <span class="text-red-500 text-2xl lg:text-5xl">S</span>
+  <span class="text-white text-xl lg:text-3xl">MART TRAVEL</span><br />
+</h2>
+
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal text-white font-semibold text-xl px-1">
+            <li><a>Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a>Packages</a></li>
+            <li>
+              <details>
+                <summary>Pages</summary>
+                <ul class="p-2 bg-blue-400">
+                  <li><a>Top Destination</a></li>
+                  <li><a>Shop Gear</a></li>
+                  <li><a>Plan Trip</a></li>
+                  <li><a>Packages</a></li>
+                   <li><a>Tour Guide</a></li>
+                    <li><a>Client Review</a></li>
+                </ul>
+              </details>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="navbar-end gap-2">
+        <div class="  ">
+          <a class="btn  hover:bg-red-400">Log in</a>
+        </div>
+        
+         <div class="  ">
+          <a class="btn  hover:bg-blue-400">Sign in</a>
+        </div>
+        </div>
+      </div>
+
+  <!-- Section start -->
+<div class="flex flex-col lg:flex-row gap-6 bg-white p-6 rounded-xl shadow-md max-w-6xl mx-auto mt-25">
+  <!-- Left Section -->
+  <div class="lg:w-2/3 space-y-4">
+    <img src="images/3.jpg" alt="Tour Image" class="rounded-xl w-full h-[420px] object-cover">
+    <div class="flex items-center gap-2 text-gray-600">
+      <svg class="w-5 h-5 text-black" fill="currentColor" viewBox="0 0 20 20">
+        <path d="M10 20s8-4.5 8-10A8 8 0 1 0 2 10c0 5.5 8 10 8 10zM6 9a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+      </svg>
+      <span class="text-xl font-medium">Dhaka, Bangladesh</span>
+    </div>
+    <h2 class="text-2xl font-bold text-black">Unforgettable Journeys Travel & Tour Stories & Tips.</h2>
+    <p class="text-sm text-gray-700 leading-relaxed">
+      Travel is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extraordinary...
+    Travel is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extraordinary. Travel
+     is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extraordinary </p>
+  </div>
+
+  <!-- Right Section (Form) -->
+  <div class="lg:w-1/3 bg-blue-100 p-6 rounded-xl space-y-4 h-[500px] flex flex-col justify-between">
+    <div class="space-y-4">
+      <h3 class="text-xl font-semibold text-blue-800">Tour Booking</h3>
+
+      <input type="email" placeholder="Enter your email"
+        class="w-full p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+      <div class="flex gap-2">
+        <div class="flex-1">
+          <label class="block text-sm font-medium mb-1">From Date:</label>
+          <input type="text" placeholder="dd/mm/yy" class="w-full p-2 rounded-md border border-gray-300">
+        </div>
+        <div class="flex-1">
+          <label class="block text-sm font-medium mb-1">Time:</label>
+          <input type="text" placeholder="11.05 AM" class="w-full p-2 rounded-md border border-gray-300">
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-1">Ticket:</label>
+        <select class="w-full p-2 rounded-md border border-gray-300">
+          <option>Please Date First</option>
+        </select>
+      </div>
+
+      <div>
+        <h4 class="text-sm font-semibold mb-2">Add Extra</h4>
+        <div class="space-y-2 text-sm text-gray-700">
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="accent-blue-600">
+            Add Service per Booking — <span class="ml-auto font-semibold">45$</span>
+          </label>
+          <label class="flex items-center gap-2">
+            <input type="checkbox" class="accent-blue-600">
+            Add Service per Booking — <span class="ml-auto font-semibold">45$</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-4 space-y-4">
+      <div class="flex justify-between text-lg font-semibold text-gray-800">
+        <span>Total:</span>
+        <span>89$</span>
+      </div>
+      <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded-md transition">
+        Book Now →
+      </button>
+    </div>
+  </div>
+</div>
+
+<div>
+    <!-- Features Section -->
+<div class="max-w-6xl mx-auto px-4 mt-10 space-y-4">
+    <h2 class="font-bold text-xl">Travel Features</h2>
+  <!-- Feature Row -->
+  <div class="flex flex-wrap gap-3">
+    <div class="flex items-center gap-2 bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M2.94 6.94a1.5 1.5 0 012.12 0L10 11.88l4.94-4.94a1.5 1.5 0 112.12 2.12l-6 6a1.5 1.5 0 01-2.12 0l-6-6a1.5 1.5 0 010-2.12z" />
+      </svg>
+      Use free wifi
+    </div>
+    <div class="flex items-center gap-2 bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 3.07 2.25 6.16 5.12 9.14a1.5 1.5 0 002.76 0C13.75 14.16 16 11.07 16 8a6 6 0 00-6-6zm0 8.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" clip-rule="evenodd" />
+      </svg>
+      Special Security
+    </div>
+    <div class="flex items-center gap-2 bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M4 3a2 2 0 00-2 2v12a1 1 0 001.447.894L10 15.118l6.553 2.776A1 1 0 0018 17V5a2 2 0 00-2-2H4z" />
+      </svg>
+      Special Grading
+    </div>
+  </div>
+
+  <!-- Second Row (repeating same items again) -->
+  <div class="flex flex-wrap gap-3">
+    <div class="flex items-center gap-2 bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M2.94 6.94a1.5 1.5 0 012.12 0L10 11.88l4.94-4.94a1.5 1.5 0 112.12 2.12l-6 6a1.5 1.5 0 01-2.12 0l-6-6a1.5 1.5 0 010-2.12z" />
+      </svg>
+      Use free wifi
+    </div>
+    <div class="flex items-center gap-2 bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M10 2a6 6 0 00-6 6c0 3.07 2.25 6.16 5.12 9.14a1.5 1.5 0 002.76 0C13.75 14.16 16 11.07 16 8a6 6 0 00-6-6zm0 8.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" clip-rule="evenodd" />
+      </svg>
+      Special Security
+    </div>
+    <div class="flex items-center gap-2 bg-gray-200 text-gray-800 px-3 py-1 rounded-md text-sm font-medium">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-black" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M4 3a2 2 0 00-2 2v12a1 1 0 001.447.894L10 15.118l6.553 2.776A1 1 0 0018 17V5a2 2 0 00-2-2H4z" />
+      </svg>
+      Special Grading
+    </div>
+  </div>
+</div>
+
+<!-- Map Section -->
+<div class="max-w-6xl pb-10 mx-auto px-4 mt-10">
+  <h2 class="text-xl font-bold text-black mb-4">Map Location</h2>
+  <img src="images/map-5653496_1280.jpg" alt="Map Location" class="w-full h-100 rounded-md object-cover">
+</div>
+
+<!-- Customer Review Section -->
+<div class="max-w-6xl mx-auto px-4 py-10 bg-gray-100 rounded-xl">
+  <h2 class="text-xl font-bold mb-6">Customer Review</h2>
+
+  <div class="flex flex-col lg:flex-row gap-6">
+    <!-- Rating Box -->
+    <div class="bg-white p-6 rounded-lg shadow-md w-full lg:w-1/3 text-center">
+      <div class="text-4xl font-bold text-gray-800">4.9</div>
+      <div class="text-red-500 text-xl mb-1">★★★★★</div>
+      <p class="text-sm text-gray-500">348+ Reviews</p>
+    </div>
+
+    <!-- Rating Progress -->
+    <div class="w-full lg:w-2/3 space-y-2">
+      <!-- 5 Star -->
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-12">5 Star</span>
+        <div class="w-full bg-gray-300 h-2 rounded">
+          <div class="bg-blue-500 h-2 rounded w-[100%]"></div>
+        </div>
+        <span class="w-10 text-right">100%</span>
+      </div>
+      <!-- 4-1 Star (Empty) -->
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-12">4 Star</span>
+        <div class="w-full bg-gray-300 h-2 rounded"></div>
+        <span class="w-10 text-right">0%</span>
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-12">3 Star</span>
+        <div class="w-full bg-gray-300 h-2 rounded"></div>
+        <span class="w-10 text-right">0%</span>
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-12">2 Star</span>
+        <div class="w-full bg-gray-300 h-2 rounded"></div>
+        <span class="w-10 text-right">0%</span>
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <span class="w-12">1 Star</span>
+        <div class="w-full bg-gray-300 h-2 rounded"></div>
+        <span class="w-10 text-right">0%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comments -->
+  <div class="mt-10 space-y-8">
+    <h3 class="font-semibold text-lg">2 Comment</h3>
+
+    <!-- Single Comment -->
+    <div>
+      <div class="text-red-500 text-sm mb-1">★★★★★</div>
+      <p class="text-sm text-gray-700">
+        Travel is more than just visiting places—it’s about creating lasting memories, discovering new cultures.
+        Travel is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extraordinary. From breathtaking landscapes to immersive local adventures.
+        
+      </p>
+      <div class="flex items-center mt-3 gap-3">
+        <img src="https://i.pravatar.cc/40" class="w-10 h-10 rounded-full" />
+        <div class="text-sm">
+          <div class="font-bold">Mikel Freday</div>
+          <div class="text-gray-500">Dhaka Bangladesh</div>
+        </div>
+        <button class="ml-auto text-xs text-gray-600 border rounded px-2 py-1 hover:bg-gray-200 flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M18 13v-2H6.41l5.3-5.29-1.42-1.42L2.59 12l7.7 7.71 1.42-1.42-5.3-5.29H18z" />
+          </svg>
+          Reply
+        </button>
+      </div>
+    </div>
+
+    <!-- Copy of the same comment -->
+    <div>
+      <p class="text-sm text-gray-700">
+        Travel is more than just visiting places—it’s about creating lasting memories, discovering new cultures.Travel is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extraordinary. From breathtaking landscapes to immersive local adventures.
+      </p>
+      <div class="flex items-center mt-3 gap-3">
+        <img src="https://i.pravatar.cc/41" class="w-10 h-10 rounded-full" />
+        <div class="text-sm">
+          <div class="font-bold">Mikel Freday</div>
+          <div class="text-gray-500">Dhaka Bangladesh</div>
+        </div>
+        <button class="ml-auto text-xs text-gray-600 border rounded px-2 py-1 hover:bg-gray-200 flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M18 13v-2H6.41l5.3-5.29-1.42-1.42L2.59 12l7.7 7.71 1.42-1.42-5.3-5.29H18z" />
+          </svg>
+          Reply
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Feedback Form -->
+ <div class="pb-10">
+<div class="max-w-6xl  mx-auto px-4 py-10 mt-10 bg-white rounded-xl shadow">
+  <h2 class="text-xl font-bold mb-6">Leave a Feedback</h2>
+  <form class="space-y-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div>
+        <label class="text-sm font-medium block mb-1">Your Name *</label>
+        <input type="text" placeholder="Enter your name" class="w-full p-2 border rounded-md border-gray-300">
+      </div>
+      <div>
+        <label class="text-sm font-medium block mb-1">Your Email *</label>
+        <input type="email" placeholder="Enter your email" class="w-full p-2 border rounded-md border-gray-300">
+      </div>
+    </div>
+
+    <div>
+      <label class="text-sm font-medium block mb-1">Rating</label>
+      <div class="flex gap-1 text-2xl text-gray-400">
+        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+      </div>
+    </div>
+
+    <div>
+      <label class="text-sm font-medium block mb-1">Your Comment *</label>
+      <textarea rows="4" placeholder="Message"
+        class="w-full p-3 border rounded-md border-gray-300 resize-none"></textarea>
+    </div>
+
+    <button type="submit"
+      class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md text-sm font-medium flex items-center gap-2">
+      Submit Review →
+    </button>
+  </form>
+</div>
+</div>
+</body>
